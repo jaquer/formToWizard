@@ -117,10 +117,10 @@
                     }
                 },
                 NextStep: function() {
-                    $( '.stepDetails:visible' ).find( 'a.next' ).click();
+                    $( '.stepDetails:visible' ).find( options.nextBtnClass ).click();
                 },
                 PreviousStep: function() {
-                    $( '.stepDetails:visible' ).find( 'a.prev' ).click();
+                    $( '.stepDetails:visible' ).find( options.prevBtnClass ).click();
                 }
             };
         }
